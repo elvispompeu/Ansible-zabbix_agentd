@@ -26,4 +26,3 @@ Execute:
 Em instantes o ambiente já esta disponível com o zabbix-agent instalado e configurado corretamente.
 
 ```# ps -ef | grep zabbix```
-```# zabbix_agentd --version```
