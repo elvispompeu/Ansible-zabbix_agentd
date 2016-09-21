@@ -2,7 +2,7 @@
 - name: Configurar e instalar agente zabbix
   hosts: all
   vars:
-    zserver: zabbix.4linux.com.br
+    zserver: zabbix.dominio.com.br
   tasks:
 
   - name: Instalar repositorio CentOS
