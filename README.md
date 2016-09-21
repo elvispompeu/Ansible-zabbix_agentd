@@ -1,7 +1,7 @@
 # Ansible-zabbix_agentd
 
 ![N|Solid](http://www.linuxsysadmin.com.br/wp-content/uploads/2015/08/cropped-linuxsysadmin2.png)
-<center>www.linuxsysadmin.com.br</center>
+Site: http://www.linuxsysadmin.com.br
 
 Playbook for zabbix_agentd on Debian 8 and CentOS 7 (x86_64)
 
