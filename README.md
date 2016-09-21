@@ -22,7 +22,7 @@ Entre no diretório:
 <br>```# cd Ansible-zabbix_agentd-master/```
 
 Execute:
-<br>```# ansible-playbook -i "localhost," -c local zabbix-agent.yml```
+<br>```ansible-playbook -i "localhost," -c local tasks/main.yml```
 
 Em instantes o ambiente já esta disponível com o zabbix-agent instalado e configurado corretamente.
 <br>```# ps -ef | grep zabbix```
