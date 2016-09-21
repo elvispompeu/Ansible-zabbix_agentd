@@ -34,7 +34,7 @@
     when: ansible_os_family == "Debian"
 
   - name: Preparar arquivo de configuração
-    template: src=./zabbix_agentd.conf dest=/etc/zabbix/zabbix_agentd.conf owner=root group=root mode=0644
+    template: src=./zabbix_agentd.conf.j2 dest=/etc/zabbix/zabbix_agentd.conf owner=root group=root mode=0644
 
   - name: Iniciar agente zabbix
     service: name=zabbix-agent state=started enabled=yes
