@@ -12,17 +12,16 @@ Playbook for zabbix_agentd on Debian 8 and CentOS 7 (x86_64)
 # Modo de uso:
 
 Faça Download:
-```# wget https://github.com/elvispompeu/Ansible-zabbix_agentd/archive/master.zip```
+<br>```# wget https://github.com/elvispompeu/Ansible-zabbix_agentd/archive/master.zip```
 
 Extraia o repositório:
-```# unzip master.zip```
+<br>```# unzip master.zip```
 
 Entre no diretório:
-```# cd Ansible-zabbix_agentd-master/```
+<br>```# cd Ansible-zabbix_agentd-master/```
 
 Execute:
-```# ansible-playbook -i "localhost," -c local zabbix-agent.yml```
+<br>```# ansible-playbook -i "localhost," -c local zabbix-agent.yml```
 
 Em instantes o ambiente já esta disponível com o zabbix-agent instalado e configurado corretamente.
-
-```# ps -ef | grep zabbix```
+<br>```# ps -ef | grep zabbix```
